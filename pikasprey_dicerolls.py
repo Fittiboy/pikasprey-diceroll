@@ -20,7 +20,7 @@ def run():
     num_rolls = int(input("\nHow many rolls do you need per set?\n\t"))
     num_sets = int(input("\nHow many sets of rolls would you like to simulate?\n\t"))
     number = int(input("\nWhich number are you looking for?\n\t"))
-    min_number_of_rolls = int(input("\nHow often should it be in the sets at minimum?\n\t"))
+    min_number_of_rolls = int(input("\nHow often should it be in the set at minimum?\n\t"))
     count = simulate_dice_rolls(num_rolls, num_sets, faces, number, min_number_of_rolls)
 
 
