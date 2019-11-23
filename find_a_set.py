@@ -12,7 +12,7 @@ def simulate_dice_rolls(num_rolls, faces, number, min_number_of_rolls):
         	break
     end = time.now()
     timediff = end - start
-    print("{dice} dices have been rolled! This took {seconds}.{microseconds}s".format(
+    print("{dice} dice have been rolled! This took {seconds}.{microseconds}s".format(
         dice=count*num_rolls, seconds=timediff.seconds, microseconds=timediff.microseconds))
     return count
 
